@@ -17,6 +17,7 @@ displaying ontological knowledge in a knowledge graph.
    - `27`
    - `21`
    - `Carson_Beck`
+
    connected to terms from the SUMO ontology.
    For example, `CFPNC_2026` is an `instance` of the SUMO term `FootballUS`, which is a `subclass`
    of `TeamSport`, which is a subclass of `Sport`, etc., which is a subclass of `Entity` (you must
