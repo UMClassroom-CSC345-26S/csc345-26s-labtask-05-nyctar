@@ -1,0 +1,76 @@
+CFPNC_2026 instance FootballUS
+FootballUS subclass TeamSport
+TeamSport subclass Sport
+Sport subclass Game
+Game subclass Contest
+Contest subclass SocialInteraction
+SocialInteraction subclass IntentionalProcess
+IntentionalProcess subclass Process
+Process subclass Physical
+Physical subclass Entity
+
+Miami_Hurricanes instance SportsTeam
+SportsTeam subclass GroupOfPeople
+GroupOfPeople subclass Group
+Group subclass Collection
+Collection subclass Physical
+Physical subclass Entity
+
+Indiana_Hoosiers instance SportsTeam
+SportsTeam subclass GroupOfPeople
+GroupOfPeople subclass Group
+Group subclass Collection
+Collection subclass Physical
+Physical subclass Entity
+
+20_January_2026 instance Day
+Day subclass TimeInterval
+TimeInterval subclass TimePosition
+TimePosition subclass TimeMeasure
+TimeMeasure subclass ConstantQuantity
+ConstantQuantity subclass PhysicalQuantity
+PhysicalQuantity subclass Quantity
+Quantity subclass Abstract
+Abstract subclass Entity
+
+27 instance NonnegativeInteger
+NonnegativeInteger subclass Integer
+Integer subclass RationalNumber
+RationalNumber subclass RealNumber
+RealNumber subclass Number
+Number subclass Quantity
+Quantity subclass Abstract
+Abstract subclass Entity
+
+21 instance NonnegativeInteger
+NonnegativeInteger subclass Integer
+Integer subclass RationalNumber
+RationalNumber subclass RealNumber
+RealNumber subclass Number
+Number subclass Quantity
+Quantity subclass Abstract
+Abstract subclass Entity
+
+Carson_Beck instance Man
+Man subclass Human
+Human subclass Hominid
+Hominid subclass Primate
+Primate subclass Mammal
+Mammal subclass WarmBloodedVertebrate
+WarmBloodedVertebrate subclass Vertebrate
+Vertebrate subclass Animal
+Animal subclass Organism
+Organism subclass OrganicObject
+OrganicObject subclass CorpuscularObject
+CorpuscularObject subclass SelfConnectedObject
+SelfConnectedObject subclass Object
+Object subclass Physical
+Physical subclass Entity
+
+Miami_Hurricanes lost CFPNC_2026
+Indiana_Hoosiers won CFPNC_2026
+20_January_2026 is_date CFPNC_2026
+27 winning_score CFPNC_2026
+21 losing_score CFPNC_2026
+Carson_Beck contestParticipant CFPNC_2026
+Carson_Beck member Miami_Hurricanes
